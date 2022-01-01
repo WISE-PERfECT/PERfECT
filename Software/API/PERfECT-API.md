@@ -91,3 +91,50 @@ E.g.:
 ![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
 
 ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+
+## Transistors
+
+### Transfer curve
+
+<hr/>
+
+`Transfer curve` is a xxx
+
+#### [#]() transconfig 
+
+- **Usage:**
+
+```haskell
+transconfig InitVgsmV,FinalVgsmV,IncrVgsmV,IncrTimemS,VdsmV,SensitivityNA,Hysteresis;
+```
+
+- **Default:**
+
+```haskell
+transconfig -200,800,5,1000,-600,1000,1;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+
+
+#### swvmeas;
+
+![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
+
+![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
