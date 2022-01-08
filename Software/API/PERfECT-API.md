@@ -16,7 +16,8 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 
 ## Install
 
-1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) the GUI from Github.
+1. [Buy](xxx) one or more PERfECT the GUI from xxx.
+1. [Download](https://github.com/WISE-PERfECT/PERfECT) the GUI from Github.
 2. Say `"PERfECT yyds"`, `"HKU WISE yyds"` loudly 10 times.
 4. Then follow this instruction and it should be work now.
 
