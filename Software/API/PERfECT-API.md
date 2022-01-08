@@ -16,10 +16,9 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 
 ## Install
 
-1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) this theme from Github, then you can get the `vue.css`, `vue-dark.css` files and the `vue` folder.
-2. Open typora. Click "**Open Theme Folder**" button from `Preference Panel` → `Apperance` section.
-3. Put `vue.css`, `vue-dark.css` and `vue` folder into the opened folder, make sure your css files are directly under that directory.
-4. Close and reopen Typora and select `Theme` → `Vue` or `Vue Dark` from the menu bar.
+1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) the GUI from Github.
+2. Say `"PERfECT yyds"`, `"HKU WISE yyds"` loudly 10 times.
+4. Then follow this instruction and it should be work now.
 
 ## Screenshots
 
@@ -105,13 +104,13 @@ E.g.:
 - **Usage:**
 
 ```haskell
-transconfig InitVgsmV,FinalVgsmV,IncrVgsmV,IncrTimemS,VdsmV,SensitivityNA,Hysteresis;
+transconfig InitVgsmV,FinalVgsmV,IncrVgsmV,IncrTimemS,VdsmV,SensitivityLevel,Hysteresis;
 ```
 
 - **Default:**
 
 ```haskell
-transconfig -200,800,5,1000,-600,1000,1;
+transconfig -200,800,5,1000,-600,1,1;
 ```
 
 Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
@@ -132,9 +131,42 @@ E.g.:
 
 > ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
 
+### Transient responds
 
-#### swvmeas;
+<hr/>
 
-![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
+`Transient responds` is a xxx
 
-![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+#### [#]() transientcfg
+
+- **Usage:**
+
+```haskell
+transientcfg InitVgsmV,InitVdsmV,InitQuietTimemS,BitNumber,BitPattern,VgsPulseHmV,VgsPulseLmV,PulseWidthmS,FinalVgsmV,FinalQuietTimemS,SensitivityLevel;
+```
+
+- **Default:**
+
+```haskell
+transientcfg 0,-600,5000,1,1,800,0,50,-100,10000,1;
+transientcfg 0,-600,5000,4,12,800,0,50,-100,10000,1;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+
