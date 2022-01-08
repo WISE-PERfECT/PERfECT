@@ -1,6 +1,6 @@
 # PERfECT API
 
-
+Xinyu Tian,  Bakitchi
 
 [中文](README_CN.md)
 
@@ -20,35 +20,15 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 2. Say `"PERfECT yyds"`, `"HKU WISE yyds"` loudly 10 times.
 4. Then follow this instruction and it should be work now.
 
-## Screenshots
+## See what's PERfECT
 
-![Screenshot 1](http://static.blinkfox.com/typora_vue_theme_screen_01.png)
+![PERfECT F1](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/20210822213950.jpg?raw=true)
 
-![Screenshot 2](http://static.blinkfox.com/typora_vue_theme_screen_02.png)
 
-![Screenshot 3](http://static.blinkfox.com/typora_vue_theme_screen_03.png)
-
-### Vue Dark
-
-![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
-
-![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
 
 > **Thanks**: This `vue-dark.css` by [typora-vue-dark-theme](https://github.com/MamoruDS/typora-vue-dark-theme).
 
 ## Electrochemistry
-
-![Screenshot 1](http://static.blinkfox.com/typora_vue_theme_screen_01.png)
-
-![Screenshot 2](http://static.blinkfox.com/typora_vue_theme_screen_02.png)
-
-![Screenshot 3](http://static.blinkfox.com/typora_vue_theme_screen_03.png)
-
-### CV
-
-![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
-
-![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
 
 ### SWV
 
