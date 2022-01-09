@@ -1,6 +1,6 @@
 # PERfECT API
 
-Xinyu Tian,  Bakitchi
+Xinyu Tian
 
 [中文](README_CN.md)
 
@@ -27,7 +27,7 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 
 
 
-> **Thanks**: This `vue-dark.css` by [typora-vue-dark-theme](https://github.com/MamoruDS/typora-vue-dark-theme).
+> **Thanks**:  [Bakitchi](bakitchi@connect.hku.hk) for all your advices :beer:.
 
 ## Electrochemistry
 
@@ -62,15 +62,11 @@ E.g.:
 ```
 
 - **Arguments:**
-> ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+> 
 >
 
 
 #### swvmeas;
-
-![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
-
-![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
 
 ## Transistors
 
@@ -110,7 +106,7 @@ E.g.:
 
 - **Arguments:**
 
-> ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+> 
 
 ### Transient responds
 
@@ -151,5 +147,42 @@ E.g.:
 
 - **Arguments:**
 
-> 
 
+
+### "Wash" the transistor
+
+<hr/>
+
+`Wash transistor` means xxxx
+
+#### [#]() washectcfg
+
+- **Usage:**
+
+```haskell
+washectcfg InitVdsmV,InitVdsmV,PulseVgsHmV,PulseVgsLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
+```
+
+- **Default:**
+
+```haskell
+transconfig 0,-300,200,-200,5,50000,1;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
