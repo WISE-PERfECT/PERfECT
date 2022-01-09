@@ -163,16 +163,30 @@ E.g.:
 - **Usage:**
 
 ```haskell
-washectcfg InitVdsmV,InitVdsmV,PulseVgsHmV,PulseVgsLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
+washectcfg InitVdsmV,InitVdsmV,VgsPulseHmV,VgsPulseLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
 ```
 
 - **Default:**
 
 ```haskell
-transconfig 0,-300,200,-200,5,50000,1;
+washectcfg 0,-300,200,-200,5,50000,1;
 ```
 
-Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+InitVdsmV:
+
+PulseVgsHmV
+
+PulseVgsLmV
+
+PulseVgsWidth
+
+WashTimemS
+
+SensitivityLevel;
+
+
+
+ Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
 
 - **Return:** `Status Code; Message`
 
