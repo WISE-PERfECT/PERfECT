@@ -129,6 +129,22 @@ transientcfg 0,-600,5000,1,1,800,0,50,-100,10000,1;
 transientcfg 0,-600,5000,4,12,800,0,50,-100,10000,1;
 ```
 
+| Parameter        | Explain                                                      | Unit | Range (ALL int) |
+| ---------------- | ------------------------------------------------------------ | ---- | --------------- |
+| InitVgsmV        | The  initial voltage applied to Gate and Source.             | mV   | -1000 to +1000  |
+| InitVdsmV        | The  initial voltage applied to Drain and Source.            | mV   | -1000 to +1000  |
+| InitQuietTimemS  | Time before Pulse start.                                     | mS   | 10-60000        |
+| BitNumber        | The sampling time, can be infinite when = 0                  | N/A  | 0-60000         |
+| BitPattern       | Pulse train pattern. E.g. when bit number = 4, BitPatterm = 10, then pulse train will be 0110. | N/A  | 0-60000         |
+| VgsPulseHmV      | Pulse voltage when bit in pulse train  = 1.                  | mV   | -1000 to +1000  |
+| VgsPulseLmV      | Pulse voltage when bit in pulse train  = 0.                  | mV   | -1000 to +1000  |
+| PulseWidthmS     | Pulse width.                                                 | mS   | 1-60000         |
+| FinalVgsmV       | The final voltage (after last pulse) applied to Gate and Source. | mV   | -1000 to +1000  |
+| FinalQuietTimemS | Time before Pulse start.                                     | mS   | 10-60000        |
+| SensitivityLevel | Sensitivity                                                  | N/A  | 0 to 10         |
+
+
+
 Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
 
 ![PERfECT_transient F5](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/transient.png?raw=true)
@@ -170,14 +186,14 @@ caectcfg InitVgsmV,InitVdsmV,SamplingRatemS,SamplingTimeS,Enable,SensitivityLeve
 caectcfg 200,-300,500,1,5,1;
 ```
 
-| Parameter        | Explain                                           | Unit | Range          |
-| ---------------- | ------------------------------------------------- | ---- | -------------- |
-| InitVgsmV        | The  initial voltage applied to Gate and Source.  | mV   | -1000 to +1000 |
-| InitVdsmV        | The  initial voltage applied to Drain and Source. | mV   | -1000 to +1000 |
-| SamplingRatemS   | The sampling rate of current (Is) ,onitoring.     | mS   | 10-60000       |
-| SamplingTimeS    |                                                   |      |                |
-| Enable           |                                                   | NA   | 0 or 1         |
-| SensitivityLevel |                                                   |      |                |
+| Parameter        | Explain                                           | Unit | Range (ALL int) |
+| ---------------- | ------------------------------------------------- | ---- | --------------- |
+| InitVgsmV        | The  initial voltage applied to Gate and Source.  | mV   | -1000 to +1000  |
+| InitVdsmV        | The  initial voltage applied to Drain and Source. | mV   | -1000 to +1000  |
+| SamplingRatemS   | The sampling rate of current (Is) monitoring.     | mS   | 10-60000        |
+| SamplingTimeS    | The sampling time, can be infinite when = 0       | S    | 0 or 1-60000    |
+| Enable           | Start (1) or stop (0) monitoring.                 | N/A  | 0 or 1          |
+| SensitivityLevel | Sensitivity                                       | N/A  | 0 to 10         |
 
 
 
