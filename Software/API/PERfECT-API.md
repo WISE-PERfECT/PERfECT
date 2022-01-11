@@ -134,7 +134,7 @@ Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers
 ![PERfECT_transient F5](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/transient.png?raw=true)
 
 
-> **Thanks**:  [Softstone](dingyao6@connect.hku.hk) for awsome figures :beer:.
+> **Thanks**:  [Softrock](dingyao6@connect.hku.hk) for awsome figures :beer:.
 
 - **Return:** `Status Code; Message`
 
@@ -150,7 +150,57 @@ E.g.:
 
 - **Arguments:**
 
+### Chronoamperometry
 
+<hr/>
+
+`Chronoamperometry` means xxxx
+
+#### [#]() washectcfg
+
+- **Usage:**
+
+```haskell
+washectcfg InitVdsmV,InitVdsmV,VgsPulseHmV,VgsPulseLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
+```
+
+- **Default:**
+
+```haskell
+washectcfg 0,-300,200,-200,5,50000,1;
+```
+
+InitVdsmV:
+
+PulseVgsHmV
+
+PulseVgsLmV
+
+PulseVgsWidth
+
+WashTimemS
+
+SensitivityLevel;
+
+
+
+ Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
 
 ### "Wash" the transistor
 
