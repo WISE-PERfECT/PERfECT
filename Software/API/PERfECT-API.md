@@ -156,35 +156,30 @@ E.g.:
 
 `Chronoamperometry` means xxxx
 
-#### [#]() washectcfg
+#### [#]() caectcfg
 
 - **Usage:**
 
 ```haskell
-washectcfg InitVdsmV,InitVdsmV,VgsPulseHmV,VgsPulseLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
+caectcfg InitVgsmV,InitVdsmV,SamplingRatemS,SamplingTimeS,Enable,SensitivityLevel;
 ```
 
 - **Default:**
 
 ```haskell
-washectcfg 0,-300,200,-200,5,50000,1;
+caectcfg 200,-300,500,1,5,1;
 ```
 
-InitVdsmV:
-
-PulseVgsHmV
-
-PulseVgsLmV
-
-PulseVgsWidth
-
-WashTimemS
-
-SensitivityLevel;
+| Parameter        | Explain                                           | Unit | Range          |
+| ---------------- | ------------------------------------------------- | ---- | -------------- |
+| InitVgsmV        | The  initial voltage applied to Gate and Source.  | mV   | -1000 to +1000 |
+| InitVdsmV        | The  initial voltage applied to Drain and Source. | mV   | -1000 to +1000 |
+| SamplingRatemS   | The sampling rate of current (Is) ,onitoring.     | mS   | 10-60000       |
+| SamplingTimeS    |                                                   |      |                |
+| Enable           |                                                   | NA   | 0 or 1         |
+| SensitivityLevel |                                                   |      |                |
 
 
-
- Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
 
 - **Return:** `Status Code; Message`
 
@@ -213,7 +208,7 @@ E.g.:
 - **Usage:**
 
 ```haskell
-washectcfg InitVdsmV,InitVdsmV,VgsPulseHmV,VgsPulseLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
+washectcfg InitVgsmV,InitVdsmV,VgsPulseHmV,VgsPulseLmV,PulseVgsWidth,WashTimemS,SensitivityLevel;
 ```
 
 - **Default:**
