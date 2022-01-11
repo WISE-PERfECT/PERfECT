@@ -27,7 +27,7 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 
 
 
-> **Thanks**:  [Bakitchi](bakitchi@connect.hku.hk) for all your advices :beer:.
+> **Thanks**:  [Bakitchi](bakitchi@connect.hku.hk) for all your advice :beer:. :beer:. :cat: :girl:.
 
 ## Electrochemistry
 
@@ -150,7 +150,7 @@ Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers
 ![PERfECT_transient F5](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/transient.png?raw=true)
 
 
-> **Thanks**:  [Softrock](dingyao6@connect.hku.hk) for awsome figures :beer:.
+> **Thanks**:  [Soft Rocks](dingyao6@connect.hku.hk) for awsome figures :beer:.
 
 - **Return:** `Status Code; Message`
 
