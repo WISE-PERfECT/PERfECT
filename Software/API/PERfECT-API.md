@@ -183,7 +183,7 @@ caectcfg InitVgsmV,InitVdsmV,SamplingRatemS,SamplingTimeS,Enable,SensitivityLeve
 - **Default:**
 
 ```haskell
-caectcfg 200,-300,500,1,5,1;
+caectcfg 200,-300,500,5,1,1;
 ```
 
 | Parameter        | Explain                                           | Unit | Range (ALL int) |
