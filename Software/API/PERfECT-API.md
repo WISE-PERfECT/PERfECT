@@ -29,6 +29,51 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 
 > **Thanks**:  [Bakitchi](bakitchi@connect.hku.hk) for all your advice :beer:. :beer:. :cat: :girl:.
 
+
+
+## Basial Command
+
+### Stop Everything
+
+<hr/>
+
+`stop`stop is a xxx
+
+#### [#]() stop  
+
+- **Usage:**
+
+```haskell
+stop 1;
+```
+
+- **Default:**
+
+```haskell
+stop 1;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
+
+
+#### 
+
 ## Electrochemistry
 
 ### SWV
