@@ -177,13 +177,13 @@ E.g.:
 - **Usage:**
 
 ```haskell
-caectcfg InitVgsmV,InitVdsmV,SamplingRatemS,SamplingTimeS,Enable,SensitivityLevel;
+caectcfg InitVgsmV,InitVdsmV,SamplingRatemS,SamplingTimeS,SensitivityLevel;
 ```
 
 - **Default:**
 
 ```haskell
-caectcfg 200,-300,500,5,1,1;
+caectcfg 200,-300,60,5,1;
 ```
 
 | Parameter        | Explain                                           | Unit | Range (ALL int) |
@@ -191,8 +191,7 @@ caectcfg 200,-300,500,5,1,1;
 | InitVgsmV        | The  initial voltage applied to Gate and Source.  | mV   | -1000 to +1000  |
 | InitVdsmV        | The  initial voltage applied to Drain and Source. | mV   | -1000 to +1000  |
 | SamplingRatemS   | The sampling rate of current (Is) monitoring.     | mS   | 10-60000        |
-| SamplingTimeS    | The sampling time, can be infinite when = 0       | S    | 0 or 1-60000    |
-| Enable           | Start (1) or stop (0) monitoring.                 | N/A  | 0 or 1          |
+| SamplingTimeS    | The sampling time, can be infinite when = 0       | S    | 0 or 1-600      |
 | SensitivityLevel | Sensitivity                                       | N/A  | 0 to 10         |
 
 
