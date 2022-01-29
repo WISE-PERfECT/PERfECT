@@ -1,0 +1,8 @@
+Change Component Comment : Designator=U4 Old Comment= New Comment=GD25Q16
+Change component parameters: Designator = "U4" ("U4"); Footprint = "SOIC8_150MIL"; UniqueID = "\RBEAQDQK" ("\RBEAQDQK")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "SPIFLASH_8PIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "M25P16"; VariantName = "[No Variations]"
+Added Room: Name=PERfECT-PRO2

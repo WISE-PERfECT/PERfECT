@@ -76,6 +76,51 @@ E.g.:
 
 ## Electrochemistry
 
+### Chronoamperometry
+
+<hr/>
+
+`I-T curve` is a xxx
+
+#### [#]() ecitcfg  
+
+- **Usage:**
+
+```haskell
+ecitcfg  InitEmV, SamplingRatemS,SamplingTimeS,SensitivityLevel;
+```
+
+- **Default:**
+
+```haskell
+ecitcfg 200,100,0,1;
+```
+
+| Parameter        | Explain                                          | Unit | Range (ALL int) |
+| ---------------- | ------------------------------------------------ | ---- | --------------- |
+| InitEmV          | The  initial voltage applied to Gate and Source. | mV   | -1000 to +1000  |
+| SamplingRatemS   | The sampling rate of current (Is) monitoring.    | mS   | 10-60000        |
+| SamplingTimeS    | The sampling time, can be infinite when = 0      | S    | 0 or 1-600      |
+| SensitivityLevel | Sensitivity                                      | N/A  | 0 to 10         |
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
+
 ### SWV
 
 <hr/>

@@ -1,0 +1,7 @@
+Change component parameters: Designator = "U3" ("U3"); Footprint = "SOT23-5"; UniqueID = "\RSVTRSGG" ("\RSVTRSGG")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "VREG_SOT23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "VREG_SOT23-5"; VariantName = "[No Variations]"
+Added Room: Name=PERfECT-PRO2
