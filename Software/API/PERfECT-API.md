@@ -93,7 +93,7 @@ ecitcfg  InitEmV, SamplingRatemS,SamplingTimeS,SensitivityLevel;
 - **Default:**
 
 ```haskell
-ecitcfg 200,100,0,1;
+ecitcfg -200,100,0,1;
 ```
 
 | Parameter        | Explain                                          | Unit | Range (ALL int) |
