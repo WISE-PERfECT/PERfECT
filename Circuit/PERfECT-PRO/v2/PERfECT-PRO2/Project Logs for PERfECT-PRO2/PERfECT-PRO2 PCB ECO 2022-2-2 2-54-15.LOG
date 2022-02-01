@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetR10_1 Pin=SW2-2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG

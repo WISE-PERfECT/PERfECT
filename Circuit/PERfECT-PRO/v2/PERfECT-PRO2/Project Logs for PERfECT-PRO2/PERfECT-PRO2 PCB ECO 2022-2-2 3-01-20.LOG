@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=DGND Pin=U2-1
+Added Pin To Net: NetName=DGND Pin=U2-2
+Added Pin To Net: NetName=DGND Pin=U2-15
+Added Pin To Net: NetName=3V3 Pin=U2-28
+Added Pin To Net: NetName=3V3 Pin=U2-30
+Added Pin To Net: NetName=DGND Pin=U2-33
+Added Pin To Net: NetName=D- Pin=U2-34
+Added Pin To Net: NetName=D+ Pin=U2-35
+Added Pin To Net: NetName=DGND Pin=U2-55
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Room: Name=PERfECT-PRO2

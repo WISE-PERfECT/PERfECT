@@ -1,0 +1,20 @@
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SOD-123"; UniqueID = "\KMWQTJOY" ("\KMWQTJOY")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "DIODE-SCHOTTKY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "DIODE-SCHOTTKY"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5" ("D5"); Footprint = "SOD-123"; UniqueID = "\GHFSIAOZ" ("\GHFSIAOZ")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "DIODE-SCHOTTKY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "DIODE-SCHOTTKY"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBUS Pin=D1-A
+Added Pin To Net: NetName=NetC7_2 Pin=D1-C
+Added Pin To Net: NetName=B+ Pin=D5-A
+Added Pin To Net: NetName=NetC7_2 Pin=D5-C
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component D1 MBR120
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component D5 MBR120
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Room: Name=PERfECT-PRO2

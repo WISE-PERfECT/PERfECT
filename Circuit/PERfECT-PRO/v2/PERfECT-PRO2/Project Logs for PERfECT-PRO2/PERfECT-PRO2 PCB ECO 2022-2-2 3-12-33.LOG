@@ -1,0 +1,23 @@
+Added Component: Designator=C3(LC-0603_C)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C5(LC-0603_C)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C11(LC-0603_C)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=C3-1
+Added Pin To Net: NetName=3V3 Pin=C3-2
+Added Pin To Net: NetName=DGND Pin=C5-1
+Added Pin To Net: NetName=3V3 Pin=C5-2
+Added Pin To Net: NetName=DGND Pin=C11-1
+Added Pin To Net: NetName=3V3 Pin=C11-2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component C3 100nF
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component C5 10uF
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component C11 100nF
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Room: Name=PERfECT-PRO2

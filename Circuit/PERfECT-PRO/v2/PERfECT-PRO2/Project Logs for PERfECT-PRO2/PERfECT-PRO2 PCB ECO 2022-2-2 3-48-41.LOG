@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=3V3 Pin=U1-30
+Added Component: Designator=R0(LC-0603_R)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R0-1
+Added Pin To Net: NetName=NetR0_2 Pin=R0-2
+Added Pin To Net: NetName=NetR0_2 Pin=U1-30
+Added Net: Name=NetR0_2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component R0 0Ω
+Added Room: Name=PERfECT-PRO2

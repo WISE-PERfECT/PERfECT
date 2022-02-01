@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=P21 Pin=R11-1
+Removed Pin From Net: NetName=NetLED4_1 Pin=R11-2
+Added Pin To Net: NetName=NetLED4_1 Pin=LED4-A
+Added Pin To Net: NetName=P21 Pin=LED4-K
+Added Pin To Net: NetName=NetLED4_1 Pin=R11-1
+Added Pin To Net: NetName=NetR0_2 Pin=R11-2
+Change Net Name : Old Net Name=NetR0_2 New Net Name=P3.3
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Room: Name=PERfECT-PRO2
