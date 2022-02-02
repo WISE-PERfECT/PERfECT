@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=DGND Pin=TP3-P$1
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component TP3 TESTPOINTROUND1.5MM

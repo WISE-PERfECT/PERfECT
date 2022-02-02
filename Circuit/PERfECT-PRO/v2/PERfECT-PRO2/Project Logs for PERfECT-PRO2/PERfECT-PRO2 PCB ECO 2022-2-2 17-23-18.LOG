@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=B+ Pin=TP1-P$1
+Added Pin To Net: NetName=VBUS Pin=TP1-P$1
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG

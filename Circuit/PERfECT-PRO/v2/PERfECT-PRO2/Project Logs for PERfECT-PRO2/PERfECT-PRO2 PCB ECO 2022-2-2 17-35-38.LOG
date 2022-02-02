@@ -1,0 +1,8 @@
+Added Component: Designator=R8(0603_R)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBUS Pin=R8-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R8-2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component R8 1K
