@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=D2/AIN4 Pin=U2-9
+Added Net: Name=D2/AIN4
+Added Pin To Net: NetName=D3/AIN5 Pin=U2-13
+Added Net: Name=D3/AIN5
+Added Pin To Net: NetName=D4/AIN6 Pin=U2-11
+Added Net: Name=D4/AIN6
+Added Pin To Net: NetName=D10/AIN7 Pin=U2-14
+Added Net: Name=D10/AIN7
+Added Pin To Net: NetName=D12/AIN0 Pin=U2-12
+Added Net: Name=D12/AIN0
+Added Pin To Net: NetName=D16/AIN1 Pin=U2-10
+Added Net: Name=D16/AIN1
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
