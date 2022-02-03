@@ -1,0 +1,13 @@
+Change component parameters: Designator = "Q3" ("Q3"); Footprint = "SOT23-R"; UniqueID = "\IVYEIEFQ" ("\IVYEIEFQ")
+Change component parameters (AddParameter): Name = "D"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "MOSFET-P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "G"; Value = "G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "S"; Value = "S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "MOSFET-P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LDOIN Pin=Q3-2
+Added Pin To Net: NetName=B+ Pin=Q3-3
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component Q3 DMG2305

@@ -1,0 +1,14 @@
+Change component parameters: Designator = "U5" ("U5"); Footprint = "SOT23-5"; UniqueID = "\LRVBBUAQ" ("\LRVBBUAQ")
+Change component parameters (AddParameter): Name = "3.75-6V"; Value = "3.75-6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "-40-85°C"; Value = "-40-85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "MCP73831/2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LIPOCharger"; Value = "LIPO Charger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MCP73831/2"; Value = "MCP73831/2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "MCP73831/2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temp"; Value = "Temp:"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VDD"; Value = "VDD:"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component U5 MCP73831T-2ACI/OT

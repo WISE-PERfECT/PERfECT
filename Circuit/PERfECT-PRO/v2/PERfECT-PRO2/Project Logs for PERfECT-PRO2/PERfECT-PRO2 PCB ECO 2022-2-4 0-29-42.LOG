@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VBUS Pin=D1-A
+Removed Pin From Net: NetName=LDOIN Pin=D1-C
+Change Component Footprint: Designator=D1 Old Footprint=SOD-123 New Footprint=LC-SOD-123
+Added Pin To Net: NetName=VBUS Pin=D1-1
+Added Pin To Net: NetName=LDOIN Pin=D1-2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG

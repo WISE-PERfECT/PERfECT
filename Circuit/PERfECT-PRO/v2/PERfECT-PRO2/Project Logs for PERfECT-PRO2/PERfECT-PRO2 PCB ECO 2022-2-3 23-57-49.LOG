@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetLED3_1 Pin=LED3-A
+Removed Pin From Net: NetName=DGND Pin=LED3-K
+Removed Pin From Net: NetName=VBUS Pin=R8-1
+Added Pin To Net: NetName=VBUS Pin=LED3-A
+Added Pin To Net: NetName=NetLED3_1 Pin=U5-1
+Added Pin To Net: NetName=DGND Pin=U5-2
+Added Pin To Net: NetName=B+ Pin=U5-3
+Added Pin To Net: NetName=VBUS Pin=U5-4
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=NetR8_2
+Added Pin To Net: NetName=NetLED3_2 Pin=LED3-K
+Added Pin To Net: NetName=NetLED3_2 Pin=R8-1
+Added Net: Name=NetLED3_2
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
