@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SWEDIO Pin=P2-7
+Removed Pin From Net: NetName=SWCLK Pin=P2-9
+Added Pin To Net: NetName=SWCLK Pin=P2-7
+Added Pin To Net: NetName=SWEDIO Pin=P2-9

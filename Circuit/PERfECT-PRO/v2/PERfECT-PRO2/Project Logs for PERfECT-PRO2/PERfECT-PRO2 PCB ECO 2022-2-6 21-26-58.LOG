@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=AGND Pin=J0-1
+Added Pin To Net: NetName=P34 Pin=J0-2
+Added Pin To Net: NetName=P2 Pin=J0-3
+Added Pin To Net: NetName=P3 Pin=J0-4
+Added Pin To Net: NetName=P4 Pin=J0-5
+Added Pin To Net: NetName=P5 Pin=J0-6
+Added Pin To Net: NetName=P6 Pin=J0-7
+Added Pin To Net: NetName=P7 Pin=J0-8
+Added Pin To Net: NetName=P8 Pin=J0-9
+Added Pin To Net: NetName=P9 Pin=J0-10
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 Micro USB

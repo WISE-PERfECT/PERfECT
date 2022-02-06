@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=TFT_CS Pin=U2-29
+Added Net: Name=TFT_CS
+Added Pin To Net: NetName=TFT_DC Pin=U2-37
+Added Net: Name=TFT_DC
+Added Pin To Net: NetName=TFT_MOSI Pin=U2-39
+Added Net: Name=TFT_MOSI
+Added Pin To Net: NetName=TFT_RESET Pin=U2-60
+Added Net: Name=TFT_RESET
+Added Pin To Net: NetName=TFT_SCK Pin=U2-36
+Added Net: Name=TFT_SCK
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
