@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=AGND Pin=P1-15
+Added Pin To Net: NetName=AGND Pin=P1-16
+Added Pin To Net: NetName=AGND Pin=P1-17
+Added Pin To Net: NetName=AGND Pin=P1-18
+Added Pin To Net: NetName=AGND Pin=P1-19
+Added Pin To Net: NetName=AGND Pin=P1-20
+Change Class Name : Old Net Name=PERfECT-PRO2 New Net Name=PERfECT-BLE

@@ -1,0 +1,40 @@
+Change Component Comment : Designator=U2 Old Comment=Comment New Comment=MDBT50
+Change component parameters: Designator = "U2" ("U2"); Footprint = "MDBT50"; UniqueID = "\DREUAKDV" ("\DREUAKDV")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "MDBT50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HS"; Value = "HS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LS"; Value = "LS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "QSPI"; Value = "QSPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "QSPI/SCK"; Value = "QSPI/SCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "MDBT50"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=U2-1
+Added Pin To Net: NetName=DGND Pin=U2-2
+Added Pin To Net: NetName=D2/AIN4 Pin=U2-9
+Added Pin To Net: NetName=D16/AIN1 Pin=U2-10
+Added Pin To Net: NetName=D4/AIN6 Pin=U2-11
+Added Pin To Net: NetName=D3/AIN5 Pin=U2-13
+Added Pin To Net: NetName=D10/AIN7 Pin=U2-14
+Added Pin To Net: NetName=DGND Pin=U2-15
+Added Pin To Net: NetName=D0/AIN2 Pin=U2-20
+Added Pin To Net: NetName=D1/AIN3 Pin=U2-21
+Added Pin To Net: NetName=3V3 Pin=U2-28
+Added Pin To Net: NetName=TFT_CS Pin=U2-29
+Added Pin To Net: NetName=3V3 Pin=U2-30
+Added Pin To Net: NetName=VBUS Pin=U2-32
+Added Pin To Net: NetName=DGND Pin=U2-33
+Added Pin To Net: NetName=D- Pin=U2-34
+Added Pin To Net: NetName=D+ Pin=U2-35
+Added Pin To Net: NetName=TFT_SCK Pin=U2-36
+Added Pin To Net: NetName=TFT_DC Pin=U2-37
+Added Pin To Net: NetName=TFT_MOSI Pin=U2-39
+Added Pin To Net: NetName=BLE_RST Pin=U2-40
+Added Pin To Net: NetName=D20/SDA Pin=U2-48
+Added Pin To Net: NetName=D19/SCL Pin=U2-49
+Added Pin To Net: NetName=BLE_SWDIO Pin=U2-51
+Added Pin To Net: NetName=BLE_SWCLK Pin=U2-53
+Added Pin To Net: NetName=DGND Pin=U2-55
+Added Pin To Net: NetName=TFT_RESET Pin=U2-60
+Added Pin To Net: NetName=NetR2_1 Pin=U2-61
+Added Member To Class: ClassName=PERfECT-PRO2 Member=Component U2 MDBT50
