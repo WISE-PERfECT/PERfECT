@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=3V3 Pin=L1-1
-Removed Member From Class: ClassName=PERfECT-PRO2 Member=L1
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG

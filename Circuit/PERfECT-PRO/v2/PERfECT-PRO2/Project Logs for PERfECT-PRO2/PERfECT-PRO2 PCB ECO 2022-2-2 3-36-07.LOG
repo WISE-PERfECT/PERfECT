@@ -1,8 +1,0 @@
-Added Pin To Net: NetName=D0/AIN2 Pin=U2-20
-Added Net: Name=D0/AIN2
-Added Pin To Net: NetName=D1/AIN3 Pin=U2-21
-Added Net: Name=D1/AIN3
-Added Pin To Net: NetName=NetSW1_1 Pin=U2-40
-Added Net: Name=NetSW1_1
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
-Added Room: Name=PERfECT-PRO2

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=P26 Pin=P1-6
-Removed Pin From Net: NetName=SWEDIO Pin=P1-7
-Removed Pin From Net: NetName=P25 Pin=P1-8
-Added Pin To Net: NetName=P25 Pin=P1-7
-Added Pin To Net: NetName=P26 Pin=P1-8

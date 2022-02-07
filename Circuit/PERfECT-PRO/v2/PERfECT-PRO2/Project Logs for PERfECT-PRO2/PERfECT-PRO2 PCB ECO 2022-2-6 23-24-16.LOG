@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=P21 Pin=LED4-K
-Removed Pin From Net: NetName=NetLED4_1 Pin=R11-1
-Removed Pin From Net: NetName=P3.3 Pin=R11-2
-Added Pin To Net: NetName=DGND Pin=LED4-K
-Added Pin To Net: NetName=P21 Pin=R11-1
-Added Pin To Net: NetName=NetLED4_1 Pin=R11-2

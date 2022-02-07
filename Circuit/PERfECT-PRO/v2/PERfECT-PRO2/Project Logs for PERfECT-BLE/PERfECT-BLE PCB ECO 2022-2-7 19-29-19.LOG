@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=DGND Pin=P2-4
-Removed Pin From Net: NetName=BLE_SWCLK Pin=P2-6
-Added Pin To Net: NetName=BLE_SWCLK Pin=P2-4
-Added Pin To Net: NetName=DGND Pin=P2-6

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PERfECT-BLE.PrjPcb]
+   Generated File[PERfECT-BLE.TXT]
+   Generated File[PERfECT-BLE.LDP]
+   Generated File[PERfECT-BLE.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:14:46 On 2022/2/7

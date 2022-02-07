@@ -1,0 +1,31 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PERfECT-BLE.PrjPcb]
+   Generated File[PERfECT-BLE.GTO]
+   Generated File[PERfECT-BLE.GTP]
+   Generated File[PERfECT-BLE.GTS]
+   Generated File[PERfECT-BLE.GTL]
+   Generated File[PERfECT-BLE.GBL]
+   Generated File[PERfECT-BLE.GBS]
+   Generated File[PERfECT-BLE.GBO]
+   Generated File[PERfECT-BLE.GM1]
+   Generated File[PERfECT-BLE.GM2]
+   Generated File[PERfECT-BLE.GM3]
+   Generated File[PERfECT-BLE.GM4]
+   Generated File[PERfECT-BLE.GM5]
+   Generated File[PERfECT-BLE.GM7]
+   Generated File[PERfECT-BLE.GM8]
+   Generated File[PERfECT-BLE.GM13]
+   Generated File[PERfECT-BLE.GM15]
+   Generated File[PERfECT-BLE.GKO]
+   Generated File[PERfECT-BLE.GPT]
+   Generated File[PERfECT-BLE.GPB]
+   Generated File[PERfECT-BLE.RUL]
+   Generated File[PERfECT-BLE.EXTREP]
+   Generated File[PERfECT-BLE.REP]
+
+
+Files Generated   : 22
+Documents Printed : 0
+
+Finished Output Generation At 22:30:08 On 2022/2/7

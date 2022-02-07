@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=SWCLK Pin=P1-9
-Removed Pin From Net: NetName=PTX Pin=P2-5
-Removed Pin From Net: NetName=PRX Pin=P2-7
-Added Pin To Net: NetName=DGND Pin=P2-1
-Added Pin To Net: NetName=PTX Pin=P2-3
-Added Pin To Net: NetName=PRX Pin=P2-5
-Added Pin To Net: NetName=SWEDIO Pin=P2-7
-Added Pin To Net: NetName=SWCLK Pin=P2-9

@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\Proj\PERfECT\PERfECT\Circuit\PERfECT-PRO\v2\PERfECT-PRO2\PERfECT-BLE.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

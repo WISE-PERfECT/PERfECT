@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=P0 NewDesignator=P1
-Change Component Designator: OldDesignator=P0 NewDesignator=P3
-Change Net Name : Old Net Name=NetP0_2 New Net Name=NetP3_2
-Change Net Name : Old Net Name=NetP0_3 New Net Name=NetP3_3
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P1 JTAG
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P3 Micro USB

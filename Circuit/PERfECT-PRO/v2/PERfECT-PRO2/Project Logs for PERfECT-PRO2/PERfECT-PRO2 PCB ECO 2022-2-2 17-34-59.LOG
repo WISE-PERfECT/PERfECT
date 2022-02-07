@@ -1,8 +1,0 @@
-Added Component: Designator=LED3(0603_LED_S1)
-Add component (AddParameter): Name = "BOM名称"; Value = "贴片LED"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
-Added Pin To Net: NetName=NetLED3_1 Pin=LED3-A
-Added Pin To Net: NetName=DGND Pin=LED3-K
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component LED3 Green
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG

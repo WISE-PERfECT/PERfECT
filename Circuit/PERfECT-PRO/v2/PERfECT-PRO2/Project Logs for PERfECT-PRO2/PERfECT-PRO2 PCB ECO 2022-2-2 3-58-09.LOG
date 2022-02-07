@@ -1,4 +1,0 @@
-Added Pin To Net: NetName=NetLED1_1 Pin=LED1-A
-Added Pin To Net: NetName=DGND Pin=LED1-K
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 JTAG
-Added Room: Name=PERfECT-PRO2

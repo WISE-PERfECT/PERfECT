@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=P10 Pin=P2-14
-Removed Pin From Net: NetName=PTX Pin=P2-17
-Removed Pin From Net: NetName=PRX Pin=P2-19
-Added Pin To Net: NetName=P10 Pin=P2-19
-Added Member To Class: ClassName=PERfECT-PRO2 Member=Component P0 Header 10

@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=BLE_SWDIO Pin=P2-2
-Removed Pin From Net: NetName=BLE_SWCLK Pin=P2-4
-Added Pin To Net: NetName=BLE_SWCLK Pin=P2-2
-Added Pin To Net: NetName=BLE_SWDIO Pin=P2-4
