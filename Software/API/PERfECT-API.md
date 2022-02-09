@@ -131,13 +131,23 @@ E.g.:
 
 - **Usage:**
 ```haskell
-swvconfig InitEmV, FinalEmV, IncrEmV, AmplitudemV, FrequencyHz, QuietTimeS, SensitivityNA; 
+swvconfig InitEmV, FinalEmV, IncrEmV, AmplitudemV, FrequencyHz, QuietTimeS, Sweepback,SensitivityLevel; 
 ```
 - **Default:**
 ```haskell
-swvconfig -500,0,4,25,200,2,1000; 
+swvconfig -500,0,4,25,200,2,0,1; 
 ```
-Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+| Parameter        | Explain                                                      | Unit | Range (ALL int) |
+| ---------------- | ------------------------------------------------------------ | ---- | --------------- |
+| InitEmV          | The  initial voltage applied to Gate and Source.             | mV   | -1000 to +1000  |
+| FinalEmV         | The  initial voltage applied to Drain and Source.            | mV   | -1000 to +1000  |
+| IncrEmV          | Time before Pulse start.                                     | mS   | 10-60000        |
+| FrequencyHz      | The sampling time, can be infinite when = 0                  | N/A  | 0-60000         |
+| QuietTimeS       | Pulse train pattern. E.g. when bit number = 4, BitPatterm = 10, then pulse train will be 0110. | N/A  | 0-60000         |
+| Sweepback        |                                                              | N/A  | 0/1             |
+| SensitivityLevel | Sensitivity                                                  | N/A  | 0 to 7          |
+
 
 - **Return:** `Status Code; Message`
 
@@ -156,7 +166,6 @@ E.g.:
 >
 
 
-#### swvmeas;
 
 ## Transistors
 
