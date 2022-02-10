@@ -189,7 +189,17 @@ transconfig InitVgsmV,FinalVgsmV,IncrVgsmV,IncrTimemS,VdsmV,SensitivityLevel,Hys
 transconfig -200,800,5,1000,-600,1,1;
 ```
 
-Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+| Parameter        | Explain                                          | Unit | Range (ALL int) |
+| ---------------- | ------------------------------------------------ | ---- | --------------- |
+| InitVgsmV        | The  initial voltage applied to Gate and Source. | mV   | -1000 to +1000  |
+| FinalVgsmV       | The final voltage applied to Gate and Source.    | mV   | -1000 to +1000  |
+| IncrVgsmV        |                                                  | mV   |                 |
+| IncrTimemS       |                                                  | mS   |                 |
+| VdsmV            | The voltage applied to Drain and Source.         | mV   | -1000 to +1000  |
+| SensitivityLevel | Sensitivity                                      | N/A  | 0 to 10         |
+| Hysteresis       |                                                  | N/A  | 0/1             |
+
 
 - **Return:** `Status Code; Message`
 
