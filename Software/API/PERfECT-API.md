@@ -71,8 +71,49 @@ E.g.:
 
 > 
 
+####
 
-#### 
+
+
+### Get temperature
+
+<hr/>
+
+`gettemp` is a xxx
+
+#### [#]() stop  
+
+- **Usage:**
+
+```haskell
+gettemp 1;
+```
+
+- **Default:**
+
+```haskell
+gettemp 1;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
+
+####  
 
 ## Electrochemistry
 
