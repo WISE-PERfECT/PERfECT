@@ -4,7 +4,7 @@ Xinyu Tian
 
 [中文](README_CN.md)
 
-> This is a API introduction for PERfECT system.
+> This is an introduction for the API of PERfECT system.
 
 ## See what's PERfECT
 
