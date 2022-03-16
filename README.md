@@ -1,5 +1,5 @@
 # PERfECT
-![PERfECT F0](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/CoverImage.tiff?raw=true)
+![PERfECT F0](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/PERfECT-COVER.png?raw=true)
 
 The world's first and best ECT control system.
 
