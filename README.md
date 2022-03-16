@@ -1,4 +1,6 @@
 # PERfECT
+![PERfECT F0](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/CoverImage.tiff?raw=true)
+
 The world's first and best ECT control system.
 
 Electrical Chemical Transistor (ECT) is a special type of transistor that has a totally different work mechanism compared with traditional Si-based transistors. Essentially, this kind of transistor is playing more with ions but not electrons, which makes it more similar to a human neural (both sensing and computing) system.
