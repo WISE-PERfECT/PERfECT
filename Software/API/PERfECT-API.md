@@ -6,7 +6,7 @@ Xinyu Tian
 
 > This is a API introduction for PERfECT system.
 
-## Introduction
+## See what's PERfECT
 
 [PERfECT](https://github.com/WISE-PERfECT/PERfECT) The world's first and best ECT control system.
 
@@ -22,10 +22,6 @@ PERfECT start from a project called 'Personalized Electrical Reader for Electric
 1. [Download](https://github.com/WISE-PERfECT/PERfECT) the GUI from Github.
 2. Say `"PERfECT yyds"`, `"HKU WISE yyds"` loudly 10 times.
 4. Then follow this instruction and it should be work now.
-
-## See what's PERfECT
-
-![PERfECT F1](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/20210822213950.jpg?raw=true)
 
 
 
@@ -415,3 +411,7 @@ E.g.:
 - **Arguments:**
 
 > 
+
+
+
+![PERfECT F1](https://github.com/WISE-PERfECT/PERfECT/blob/main/figures/20210822213950.jpg?raw=true)
