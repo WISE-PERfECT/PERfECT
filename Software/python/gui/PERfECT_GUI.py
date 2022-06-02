@@ -3,7 +3,7 @@ Brief: The GUI for PERfECT system
 Author: Xinyu Tian
 Github: https://github.com/XITechs
 CreateTime: 2022-05-02 18:33:27
-LastEditTime: 2022-05-16 16:57:08
+LastEditTime: 2022-06-02 13:54:01
 Description: 
 '''
 
@@ -89,6 +89,7 @@ class Main(QMainWindow):
          self.plt.enableAutoRange(axis='y', enable=False)
          self.plt.enableAutoRange(axis='x', enable=True)
          self.curve1 = self.plt.plot([], [], pen=pg.mkPen('r', width=1))
+         self.plt.setYRange(-0.003, 0.003)  #+-3mA
          #self.curve2 = self.plt.plot(self.x, self.y2, pen=(255,0,255))
          #self.curve3 = self.plt.plot(self.x, self.y3, pen=(255,255,0))
          self.ui.plotLayout.addWidget(self.canvas)
@@ -404,7 +405,8 @@ class Main(QMainWindow):
     
     
     def adc2voltageFunc(self,adcData): #mV
-        return 1835 * ((adcData - 32768.0) / 32768.0) /1.5 + 32 #35mV for unknown adc error 
+        #return 1835 * ((adcData - 32768.0) / 32768.0) /1.5 + 32 #35mV for unknown adc error
+        return 1835 * ((adcData - 32768.0) / 32768.0) /1.5  
     def adc2currentFunc(self,adcData): #uA
         I = 1000*self.adc2voltageFunc(adcData) / self.currentRtia
         return I
