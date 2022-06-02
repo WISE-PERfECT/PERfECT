@@ -1,0 +1,43 @@
+epoch: 0, loss: 107.92, acc: 0.427000, time: 0.69
+epoch: 1, loss: 83.43, acc: 0.703000, time: 0.72
+epoch: 2, loss: 73.34, acc: 0.749000, time: 0.70
+epoch: 3, loss: 66.16, acc: 0.794500, time: 0.75
+epoch: 4, loss: 61.13, acc: 0.794500, time: 0.72
+epoch: 5, loss: 57.13, acc: 0.827500, time: 0.72
+epoch: 6, loss: 53.80, acc: 0.836000, time: 0.80
+epoch: 7, loss: 50.97, acc: 0.849000, time: 0.69
+epoch: 8, loss: 48.64, acc: 0.860000, time: 0.73
+epoch: 9, loss: 46.60, acc: 0.869500, time: 0.70
+epoch: 10, loss: 44.81, acc: 0.867500, time: 0.69
+epoch: 11, loss: 43.26, acc: 0.875500, time: 0.72
+epoch: 12, loss: 41.56, acc: 0.888500, time: 0.69
+epoch: 13, loss: 40.32, acc: 0.885500, time: 0.69
+epoch: 14, loss: 39.01, acc: 0.896500, time: 0.69
+epoch: 15, loss: 38.33, acc: 0.900500, time: 0.67
+epoch: 16, loss: 38.15, acc: 0.904500, time: 0.69
+epoch: 17, loss: 38.00, acc: 0.899000, time: 0.69
+epoch: 18, loss: 37.91, acc: 0.901000, time: 0.72
+epoch: 19, loss: 37.78, acc: 0.898000, time: 0.69
+epoch: 20, loss: 37.69, acc: 0.902500, time: 0.69
+epoch: 21, loss: 37.54, acc: 0.906500, time: 0.70
+epoch: 22, loss: 37.46, acc: 0.906000, time: 0.67
+epoch: 23, loss: 37.32, acc: 0.904000, time: 0.70
+epoch: 24, loss: 37.18, acc: 0.898500, time: 0.67
+epoch: 25, loss: 37.11, acc: 0.901500, time: 0.70
+epoch: 26, loss: 36.98, acc: 0.904500, time: 0.69
+epoch: 27, loss: 36.85, acc: 0.904000, time: 0.69
+epoch: 28, loss: 36.74, acc: 0.904500, time: 0.69
+epoch: 29, loss: 36.63, acc: 0.909000, time: 0.72
+epoch: 30, loss: 36.54, acc: 0.908500, time: 0.70
+epoch: 31, loss: 36.52, acc: 0.907500, time: 0.72
+epoch: 32, loss: 36.50, acc: 0.909000, time: 0.73
+epoch: 33, loss: 36.49, acc: 0.910000, time: 0.72
+epoch: 34, loss: 36.48, acc: 0.910000, time: 0.69
+epoch: 35, loss: 36.46, acc: 0.910000, time: 0.72
+epoch: 36, loss: 36.45, acc: 0.910500, time: 0.69
+epoch: 37, loss: 36.44, acc: 0.907500, time: 0.67
+epoch: 38, loss: 36.43, acc: 0.909500, time: 0.67
+epoch: 39, loss: 36.41, acc: 0.909500, time: 0.67
+test acc: 0.909500
+
+Process finished with exit code 0
