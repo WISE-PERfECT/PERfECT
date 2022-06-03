@@ -111,7 +111,47 @@ E.g.:
 
 > 
 
-####  
+
+
+####  Calibration Analog Circuit
+
+<hr/>
+
+`afecali`afecaliis a xxx
+
+#### [#]() afecali
+
+- **Usage:**
+
+```haskell
+afecali;
+```
+
+- **Default:**
+
+```haskell
+afecali;
+```
+
+Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex Furthers Ex 
+
+- **Return:** `Status Code; Message`
+
+```haskell
+E.g.:
+
+66;Succssful config
+
+100;Illegal arguments
+
+200;Unsupported commands
+```
+
+- **Arguments:**
+
+> 
+
+####
 
 ## Electrochemistry
 

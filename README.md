@@ -8,3 +8,5 @@ Electrical Chemical Transistor (ECT) is a special type of transistor that has a 
 PERfECT start from a project called 'Personalized Electrical Reader for Electrical Chemical Transistors' which aims to prototype the world's first characterization system specifically for ECT devices, with our 10 years of dedication to it.
 
 See how can you change the world with PERfECT [here](https://github.com/WISE-PERfECT/PERfECT/blob/main/Software/API/PERfECT-API.md).
+
+You can also check our paper about PERfECT  [here](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.1c05210).
