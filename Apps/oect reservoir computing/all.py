@@ -14,23 +14,23 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
-# hyperparameters
+
+# parameters
 sampling = 0
 num_pulse = 4
 num_pixels = 4 * 16
 img_width = 16
-device_tested_number = 2    # number of bits used for simulating
+device_tested_number = 2    # number of devices used for simulation
 
 num_epoch = 40
 learning_rate = 1e-2
-
-digital = False
-
 batchsize = 20
 te_batchsize = 20
 
+digital = False
 
-# binarize the data with threshold = 0.25
+
+# Function: binarize the EMG data with threshold = 0.25
 def binarize_dataset(data, threshold):
     data = torch.where(data > threshold * data.max(), 1, 0)
     return data
@@ -78,11 +78,41 @@ class SimpleDatasetEMG(torch.utils.data.Dataset):
         else:
             return img, target
 
-
     def __len__(self):
         return self.data.shape[0]
 
 
+# Function: Get the data of the oect devices
+# Input:    path:              the path of oect tabel: 'oect_210112_3A.xlsx'
+#           device_test_cnt:   how many devices used for simulating
+#           num_pulse:         4
+# Output:   device_data
+def oect_data_proc(path, device_test_cnt, num_pulse, device_read_times=None):
+    device_excel = pd.read_excel(path, converters={'pulse': str})
+
+    device_read_time_list = ['10s', '10.5s', '11s', '11.5s', '12s']
+    if device_read_times == None:
+        cnt = 0
+    else:
+        cnt = device_read_time_list.index(device_read_times)
+
+    num_rows = 2 ** num_pulse
+    device_data = device_excel.iloc[cnt * (num_rows + 1): cnt * (num_rows + 1) + num_rows, 0: device_test_cnt + 1]
+
+    # use binary pulse as dataframe index
+    device_data.index = device_data['pulse']
+    del device_data['pulse']
+
+    return device_data
+
+
+# Function: use device to extract feature
+#           (randomly select an experimental output value corresponding to the input binary digits)
+#           called in function: batch_rc_feat_extract
+# Input:    data: input EMG data,
+#           device_data:  data of the device, from the function: oect_data_proc
+#           device_tested_number: number of devices used for simulation
+# Output:   device_outputs: shape: (1, img_width)
 def rc_feature_extraction(data, device_data, device_tested_number, num_pulse, padding=False):
     '''
     use device to extract feature (randomly select a experimental output value corresponding to the input binary digits)
@@ -119,6 +149,11 @@ def rc_feature_extraction(data, device_data, device_tested_number, num_pulse, pa
     return device_outputs                                       # shape: (1, img_width)
 
 
+# Function: Transform the data based on the oect device
+# Input:    data: data without transformation,
+#           device_output: data of the device, from the function: oect_data_proc
+#           device_tested_number: number of devices used for simulation
+# Output:   feature: output of the OECT device, shape: (batch_size, img_width)
 def batch_rc_feat_extract(data,
                           device_output,
                           device_tested_number,
@@ -133,29 +168,8 @@ def batch_rc_feat_extract(data,
                                         num_pulse)
         features.append(feature)                                # shape: (1, img_width)
     features = torch.cat(features, dim=0)
+
     return features                                             # shape: (batch_size, img_width)
-
-
-# Input: path:              the path of oect tabel: 'oect_210112_3A.xlsx'
-#        device_test_cnt:   how many bits used for simulating
-#        num_pulse:         
-def oect_data_proc(path, device_test_cnt, num_pulse = 4, device_read_times=None):
-    device_excel = pd.read_excel(path, converters={'pulse': str})
-
-    device_read_time_list = ['10s', '10.5s', '11s', '11.5s', '12s']
-    if device_read_times == None:
-        cnt = 0
-    else:
-        cnt = device_read_time_list.index(device_read_times)
-
-    num_rows = 2 ** num_pulse
-    device_data = device_excel.iloc[cnt * (num_rows + 1): cnt * (num_rows + 1) + num_rows, 0: device_test_cnt + 1]
-
-    # use binary pulse as dataframe index
-    device_data.index = device_data['pulse']
-    del device_data['pulse']
-
-    return device_data
 
 
 # Function: develop the path of training set, testing set, device reading path
@@ -167,7 +181,7 @@ def set_path():
     t = datetime.fromtimestamp(time.time())
 
     # THIS LINE SHOULD BE CHANGED EVERY TIME
-    save_dir_name = 'emg_0strain_non_resize'
+    save_dir_name = 'emg_0strain_non_resize_debug_num_impulse_'
     save_dir_name = save_dir_name + '_' + datetime.strftime(t, '%m%d')
 
     device_filename = 'oect_210112_3A.xlsx'
@@ -193,7 +207,9 @@ def set_path():
     return TRAIN_PATH, TEST_PATH, device_path, save_dir_name
 
 
+# get the path of training set and testing set, load the dataset
 TRAIN_PATH, TEST_PATH, device_path, save_dir_name = set_path()
+
 tr_dataset = SimpleDatasetEMG(TRAIN_PATH, num_pulse=num_pulse, sampling=sampling)
 te_dataset = SimpleDatasetEMG(TEST_PATH, num_pulse=num_pulse, sampling=sampling)
 
@@ -202,6 +218,7 @@ train_loader = DataLoader(tr_dataset,
                         shuffle=True)
 test_dataloader = DataLoader(te_dataset, batch_size=batchsize)
 
+# develop the model
 criterion = nn.CrossEntropyLoss()
 
 model = torch.nn.Sequential(
@@ -210,9 +227,7 @@ model = torch.nn.Sequential(
 
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=15, gamma=0.1)
-device_output = oect_data_proc(path=device_path,
-                                    device_test_cnt=device_tested_number,
-                                    device_read_times=None)
+device_output = oect_data_proc(path=device_path, num_pulse=num_pulse, device_test_cnt=device_tested_number)
 
 if digital:
     device_output = device_output[1]
@@ -222,7 +237,7 @@ else:
     device_output = (device_output - device_output.min().min()) / (device_output.max().max() - device_output.min().min())
 
 
-# Start training
+# start training
 start_time = time.time()
 
 acc_list = []
@@ -235,11 +250,7 @@ for epoch in range(num_epoch):
 
         this_batch_size = len(data)
 
-        oect_output = batch_rc_feat_extract(data,
-                                                  device_output,
-                                                  device_tested_number,
-                                                  num_pulse,
-                                                  this_batch_size)
+        oect_output = batch_rc_feat_extract(data, device_output, device_tested_number, num_pulse, this_batch_size)
 
         logic = model(oect_output)
         batch_loss = criterion(logic, target)
@@ -307,7 +318,7 @@ with torch.no_grad():
 
     torch.save(model, os.path.join(save_dir_name, 'downsampled_img_mode.pt'))
 
-
+# plot the accuracy curve
 plt.figure()
 plt.plot(acc_list)
 plt.show()
