@@ -5,8 +5,6 @@ June 19, 2022
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from torchvision import transforms, datasets
-import time
 import os
 import numpy as np
 import time
@@ -15,12 +13,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
-import cv2
-from PIL.Image import new
-from numpy.core.fromnumeric import squeeze
-import pandas
-import torch.nn.functional as F
-
 
 sampling = 0
 num_pulse = 4   # 5
@@ -88,6 +80,8 @@ class SimpleDatasetEMG(torch.utils.data.Dataset):
         else:
             return img, target
 
+    def __len__(self):
+        return self.data.shape[0]
 
 
 def rc_feature_extraction(data, device_data, device_tested_number, num_pulse, padding=False):
@@ -261,7 +255,7 @@ for epoch in range(num_epoch):
     print("epoch: %d, loss: %.2f, acc: %.6f, time: %.2f" % (epoch, loss, acc_epoch, epoch_time))
 
 
-## testing
+# testing
 te_accs = []
 te_outputs = []
 targets = []
@@ -293,7 +287,6 @@ with torch.no_grad():
                                       columns=list(range(3)))
 
     conf_mat_normalized = conf_mat_dataframe.divide(conf_mat_dataframe.sum(axis=1), axis=0)
-
 
     plt.figure(figsize=(12, 8))
     sns.heatmap(conf_mat_dataframe, annot=True, fmt='d')
