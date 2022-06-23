@@ -1,5 +1,5 @@
 '''
-June 21, 2022
+June 23, 2022
 '''
 
 import torch
@@ -30,12 +30,6 @@ te_batchsize = 20
 digital = False
 
 
-# Function: binarize the EMG data with threshold = 0.25
-def binarize_dataset(data, threshold):
-    data = torch.where(data > threshold * data.max(), 1, 0)
-    return data
-
-
 class SimpleDatasetEMG(torch.utils.data.Dataset):
     def __init__(self,
                  path,
@@ -44,10 +38,6 @@ class SimpleDatasetEMG(torch.utils.data.Dataset):
                  transform=None,
                  sampling=0,
                  ori_img=False):
-
-        '''
-        ori_img: if return the original MNIST img and crop&resized img
-        '''
 
         super(SimpleDatasetEMG, self).__init__()
 
@@ -61,7 +51,6 @@ class SimpleDatasetEMG(torch.utils.data.Dataset):
         self.num_data = self.data.shape[0]
 
         if type(path) is str:
-            self.data = binarize_dataset(self.data, threshold=0.25)
             self.data = torch.transpose(self.data, dim0=1, dim1=2)
 
         else:
